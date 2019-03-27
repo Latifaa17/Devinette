@@ -9,6 +9,7 @@ function jouer() {
         if(n==nb)
             {
                 console.log("bravo!");
+                console.log("la réponse correcte est:"+n);
                 console.log("vous avez gagné à la tentative numero "+(i+1));
                 test=true;
             }
@@ -27,6 +28,6 @@ function jouer() {
     if(!test)
     {
         console.log("vous avez perdu :( ");
-        console.log("l'entier à chercher était "+nb);
+        console.log("la réponse correcte est: "+nb);
     }
   }
